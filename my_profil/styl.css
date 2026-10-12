@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.gora {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.gif {
+    width: 40%;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.left {
+    width: 60%;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.gora + .gif,
+.gora + .gif + .left {
+    float: none;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gora {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+.gif,
+.left {
+    height: auto;
+}
+
+.gif {
+    align-self: stretch;
+}
+
+.left {
+    align-self: stretch;
+}
+
+.gif2 {
+    width: 40%;
+    float: left;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right  {
+    float: right;
+    width: 60%;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}

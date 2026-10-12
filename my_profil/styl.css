@@ -17,18 +17,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+}
+.gif img{
+
 }
 
 .left {
     width: 60%;
     background-color: aliceblue;
     box-sizing: border-box;
-}
-
-.gora + .gif,
-.gora + .gif + .left {
-    float: none;
 }
 
 body {
